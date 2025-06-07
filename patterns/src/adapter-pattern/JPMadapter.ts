@@ -9,3 +9,12 @@ export class JPMAdapter implements IFxService {
     return rates;
   }
 }
+
+// export class BarclaysAdapter implements IFxService {
+//   constructor(private barclays: Barclays) {} //adaptee
+
+//   fetchFXRates(source: string, target: string, amount: number): number {
+//     const rates = this.barclays.fetchBarclaysRates(amount, source, target);
+//     return rates;
+//   }
+// }
