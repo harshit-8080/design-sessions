@@ -1,0 +1,23 @@
+export enum PaymentStatus {
+  IN_PROGRESS = "IN_PROGRESS",
+  SUCCESS = "SUCCESS",
+  FAILED = "FAILED",
+}
+
+export enum SeatType {
+  PLATINUM = "PLATINUM",
+  GOLD = "GOLD",
+  SILVER = "SILVER",
+}
+
+export enum SeatStatus {
+  AVAILABLE = "AVAILABLE",
+  BLOCKED = "BLOCKED",
+  BOOKED = "BOOKED",
+}
+
+export enum NOTIFICATION_TYPE {
+  BOOKING_SUCCESS = "BOOKING_SUCCESS",
+  BOOKING_FAILURE = "BOOKING_FAILURE",
+  BOOKING_CANCELLATION = "BOOKING_CANCELLATION",
+}
