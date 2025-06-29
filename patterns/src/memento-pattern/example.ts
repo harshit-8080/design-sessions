@@ -34,7 +34,7 @@ class HistoryManager {
   }
 
   undo() {
-    this.history.pop();
+    const latestState = this.history.pop();
     return this.history[this.history.length - 1];
   }
 }
